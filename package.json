@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fire": "artillery run artillery.yml"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/Team-Aragorn/details-proxy#readme",
   "dependencies": {
+    "artillery": "^1.6.0",
     "axios": "^0.19.2",
     "express": "^4.17.1",
+    "newrelic": "^6.8.0",
     "nodemon": "^2.0.4"
   }
 }
